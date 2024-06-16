@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView android:id="@+id/dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Create Mercu Buana Student"/>
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nama"/>
+    <EditText
+        android:id="@+id/edit_nim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nim no"/>
+    <EditText
+        android:id="@+id/edit_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"/>
+    <EditText
+        android:id="@+id/edit_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_create"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:text="Create" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:text="Cancel"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
